@@ -1,0 +1,32 @@
+[user]
+	name = <first last>
+	email = <email>
+[core]
+	autocrlf = true
+	compression = 0
+[push]
+	default = simple
+[merge]
+[sendpack]
+	sideband = false
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	unstage = reset HEAD --
+	lgb = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset%n' --abbrev-commit --date=relative --branches
+	ds = diff --staged
+	df = diff
+	unmerged = branch -a --no-merged
+	stat-ci = shortlog -s -n
+	merged = branch -r --merged
+	last = log -1 --oneline
+	fp = fetch --prune
+	lol = log --oneline
+[color "branch"]
+	upstream = red
+[credential]
+	helper = manager
+[merge]
+	renameLimit = 2000
