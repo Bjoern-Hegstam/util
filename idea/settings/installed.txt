@@ -1,4 +1,3 @@
-Karma
 Pythonid
 com.github.leomillon.uuidgenerator
 com.jinsihou.react.snippets
