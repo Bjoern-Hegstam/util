@@ -1,0 +1,5 @@
+Karma
+Pythonid
+com.github.leomillon.uuidgenerator
+com.jinsihou.react.snippets
+mobi.hsz.idea.gitignore
