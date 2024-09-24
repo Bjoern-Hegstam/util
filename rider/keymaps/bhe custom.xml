@@ -7,8 +7,22 @@
   <action id="Back">
     <keyboard-shortcut first-keystroke="shift alt left" />
   </action>
+  <action id="Console.TableResult.NextPage" />
+  <action id="Console.TableResult.PreviousPage" />
   <action id="Diff.NextChange" />
   <action id="Diff.PrevChange" />
+  <action id="EditorCodeBlockEnd">
+    <keyboard-shortcut first-keystroke="meta alt down" />
+  </action>
+  <action id="EditorCodeBlockEndWithSelection">
+    <keyboard-shortcut first-keystroke="shift meta alt down" />
+  </action>
+  <action id="EditorCodeBlockStart">
+    <keyboard-shortcut first-keystroke="meta alt up" />
+  </action>
+  <action id="EditorCodeBlockStartWithSelection">
+    <keyboard-shortcut first-keystroke="shift meta alt up" />
+  </action>
   <action id="EditorCompleteStatement">
     <keyboard-shortcut first-keystroke="shift ctrl enter" />
   </action>
@@ -30,6 +44,7 @@
   <action id="EditorUnSelectWord">
     <keyboard-shortcut first-keystroke="shift ctrl w" />
   </action>
+  <action id="Exit" />
   <action id="Forward">
     <keyboard-shortcut first-keystroke="shift alt right" />
   </action>
@@ -44,6 +59,7 @@
     <keyboard-shortcut first-keystroke="alt up" />
   </action>
   <action id="NextEditorTab" />
+  <action id="NextOccurence" />
   <action id="NextSplitter">
     <keyboard-shortcut first-keystroke="alt right" />
   </action>
@@ -52,6 +68,7 @@
     <keyboard-shortcut first-keystroke="alt left" />
   </action>
   <action id="PreviousEditorTab" />
+  <action id="PreviousOccurence" />
   <action id="PreviousTab" />
   <action id="RiderUnitTestAppendTestsAction" />
   <action id="RiderUnitTestDebugContextAction">
@@ -82,5 +99,8 @@
   <action id="Terminal.DeletePreviousWord" />
   <action id="UsageFiltering.WriteAccess" />
   <action id="UsageView.ShowRecentFindUsages" />
+  <action id="Vcs.QuickListPopupAction">
+    <keyboard-shortcut first-keystroke="#10000a7" />
+  </action>
   <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleStrikethroughAction" />
 </keymap>
